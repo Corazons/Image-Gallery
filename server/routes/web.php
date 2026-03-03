@@ -34,4 +34,4 @@ Route::get('/redis-test', function () {
     return Redis::get('check');
 });
 
-Route::get('photos', [ApiController::class, 'index']);
+Route::get('/photos', [ApiController::class, 'index']);

@@ -1,7 +1,6 @@
-export default function Card({img}) {
+export default function Card({image: img}) {
     return (
             <div
-              key={img.id}
               className="bg-white shadow overflow-hidden card">
               <img
                 src={img.urls.small}
