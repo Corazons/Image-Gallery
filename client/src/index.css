@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+.button-disable{
+  opacity: 0.5;
+}
+
+.button-enable{
+  cursor:pointer;
+}
 
 .card {
   position: relative;
